@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(to left, #4b79a1, #283e51);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.containerarea {
+  margin-bottom: 400px;
+}
+
+/* styling of heading section */
+
+.headingsection {
+  text-align: center;
+  font-size: 1rem;
+
+  /* margin-bottom: 300px; */
+}
+/* stying of to-do container */
+.timedisplay {
+  color: rgb(110, 205, 235);
+}
+.todoitem {
+  margin-top: 50px;
+  max-width: 800px;
+  max-height: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: #719bc0;
+  border: 1px solid #719bc0;
+  border-radius: 20px;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+.inputarea {
+  display: flex;
+  padding-bottom: 1rem;
+}
+input[type="text"] {
+  width: 80%;
+  padding: 0.7rem 0;
+  outline: none;
+  border: 1px solid white;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  font-size: 1.2rem;
+  color: #4b79a1;
+  text-align: left;
+  padding-left: 10px;
+}
+::placeholder {
+  text-align: center;
+}
+
+.add {
+  width: 20%;
+  padding: 0.7rem 0;
+  background-color: #255986;
+  background-color: #255986;
+  border: 1px solid #255986;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: #255986;
+  color: aliceblue;
+}
+.add:hover {
+  transform: scaleY(1.2);
+}
+.todaysList {
+  list-style: none;
+  text-align: center;
+  /* margin-left: 1rem; */
+  margin-right: 2rem;
+}
+
+.todaysList li {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  padding-bottom: 1.5rem;
+}
+
+
+.deletebutton {
+  cursor: pointer;
+}
+.deletebutton:hover {
+  color: rgb(168, 60, 60);
+}
+
+
+/* Quote generator styling */
+
+.quotegen {
+  text-align: center;
+}
+.quotegen h4 {
+  font-size: medium;
+}

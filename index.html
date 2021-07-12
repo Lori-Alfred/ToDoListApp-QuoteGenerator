@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To-do List</title>
+    <script
+      src="https://kit.fontawesome.com/e64260d018.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="containerarea">
+      <div class="headingsection">
+        <h1>Welcome to Crown To-do List</h1>
+        <h2>
+          Hey it's 😎
+          <span class="dateheader" id="dateheader"></span>
+        </h2>
+        <h3 class="timedisplay" id="timedisplay"></h3>
+        <p>Achieve more with precision .</p>
+      </div>
+      <div class="todoitem">
+        <div class="inputarea">
+          <input
+            type="text"
+            name="textinput"
+            id="textinput"
+            placeholder="Enter items for today...."
+          />
+          <button type="submit" class="add" id="add">Add</button>
+        </div>
+        <div class="listeditems" id="listeditems">
+          <ul class="todaysList" id="todaysList"></ul>
+        </div>
+      </div>
+      <div class="quotegen">
+        <h3>QUOTE OF THE DAY</h3>
+        <q class="quote"></q>
+        <h5 class="author"></h5>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
